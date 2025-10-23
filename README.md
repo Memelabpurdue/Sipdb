@@ -333,13 +333,6 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 - 📝 Improve documentation
 - 🔧 Submit pull requests
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👥 Authors
 
@@ -351,7 +344,7 @@ See [AUTHORS.md](AUTHORS.md) for the full list of contributors.
 
 - **Issues**: [GitHub Issues](https://github.com/memelabpurdue/Sipdb/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/memelabpurdue/Sipdb/discussions)
-- **Email**: your.email@institution.edu
+- **Email**: 
 
 ---
 
