@@ -1,0 +1,77 @@
+# Modern Scientific Theme Configuration
+# Professional, clean design for academic software
+
+title: "SIP Meta-Analysis Pipeline"
+description: "Comprehensive R pipeline for stable isotope probing meta-analysis"
+baseurl: "/Sipdb"
+url: "https://memelabpurdue.github.io"
+
+# Author info
+author:
+  name: "SSIPdb Core Team"
+  email: "sipdb-team@purdue.edu"
+  github: "memelabpurdue"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "docs"
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Quick Start
+    url: /QUICKSTART
+  - title: Documentation
+    url: /docs/
+    subnav:
+      - title: User Guide
+        url: /docs/USER_GUIDE
+      - title: Tutorial
+        url: /docs/TUTORIAL
+      - title: FAQ
+        url: /docs/FAQ
+  - title: Installation
+    url: /INSTALL
+  - title: GitHub
+    url: https://github.com/memelabpurdue/Sipdb
+    external: true
+
+# Colors (customize these!)
+colors:
+  primary: "#2c3e50"      # Dark blue-gray
+  secondary: "#3498db"    # Bright blue
+  accent: "#2ecc71"       # Green
+  text: "#2c3e50"         # Dark gray
+  background: "#ffffff"   # White
+  code-bg: "#f8f9fa"      # Light gray
